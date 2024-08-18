@@ -1,6 +1,6 @@
 // once iterate from left and then from right. while iterating from left, keep a count of open and closed
-// if open=close, then valid, if close greater then reset both to 0. This will miss some strings. Do the 
-// opposite from right. there will be cases where this will not see few strings at all in both the cases, 
+// if open=close, then valid, if close greater then reset both to 0. This will miss some strings.(eq think about "(()" Do the 
+// opposite from right.  there will be cases where this will not see few strings at all in both the cases, 
 // but it becoz there are better cases. 
 
 
